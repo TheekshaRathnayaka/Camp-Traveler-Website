@@ -2,9 +2,14 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>
-      
-    </div>
+    <section  className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+
+      <div className="max-container padding-container relative w-full flex justify-end">
+
+        
+      </div>
+
+    </section>
   )
 }
 
