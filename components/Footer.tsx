@@ -1,4 +1,5 @@
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
+import { link } from 'fs'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -16,6 +17,7 @@ const Footer = () => {
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
+
             {FOOTER_LINKS.map((columns) => (
 
               <FooterColumn title={columns.title}>
@@ -31,8 +33,30 @@ const Footer = () => {
                 </ul>
 
               </FooterColumn>
-
             ))}
+
+            <div className="flex flex-col gap-5">
+              <FooterColumn title={FOOTER_CONTACT_INFO.title}>
+
+                {FOOTER_CONTACT_INFO.links.map((link) => (
+                  <Link href="/" 
+                        key={link.label}
+                        className="flex gap-4 md:flex-col lg:flex-row">
+
+                    <p className="whitespace-nowrap">
+                      {link.label}
+                    </p>
+
+                    <p className="medium-14 whitespace-nowrap text-blue-70">
+                      {link.value}
+                    </p>
+
+                  </Link>
+                ))}
+
+              </FooterColumn>
+            </div>
+            
           </div>
 
           <div className="flex flex-col gap-5">
