@@ -1,13 +1,12 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    { href: '#hero', key: 'home', label: 'Home' },
+    { href: '#guide', key: 'how_hilink_work', label: 'How Hilink Work?' },
+    { href: '#features', key: 'services', label: 'Features' },
+    { href: '#getapp', key: 'pricing ', label: 'Pricing ' },
+    { href: '#footer', key: 'contact_us', label: 'Contact Us' },
   ];
   
-
   // CAMP SECTION
   export const PEOPLE_URL = [
     '/person-1.png',
@@ -16,7 +15,6 @@ export const NAV_LINKS = [
     '/person-4.png',
   ];
   
-
   // FEATURES SECTION
   export const FEATURES = [
     {
@@ -49,7 +47,42 @@ export const NAV_LINKS = [
     },
   ];
   
-
+  //PRICING
+  export const pricingOptions = [
+    {
+      title: "Plan A - Basic Adventurer",
+      price: "$50",
+      features: [
+        "Tent for 2 people",
+        "Basic camping gear (lantern, sleeping bags)",
+        "Access to campground facilities",
+        "Firewood for one night",
+      ],
+    },
+    {
+      title: "Plan B - Explorer",
+      price: "$100",
+      features: [
+        "Tent for 4 people",
+        "Full camping gear (lantern, sleeping bags, portable stove)",
+        "Guided nature walk",
+        "Firewood and portable grill",
+        "First aid kit",
+      ],
+    },
+    {
+      title: "Plan C - Premium Camper",
+      price: "$200",
+      features: [
+        "Luxury tent with air mattresses",
+        "All-inclusive camping gear (including cookware and utensils)",
+        "Private guided hiking tour",
+        "Firewood, grill, and gourmet meal kit",
+        "Solar charging station for devices",
+      ],
+    },
+  ];
+  
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
@@ -69,7 +102,6 @@ export const NAV_LINKS = [
     },
   ];
   
-
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
@@ -78,7 +110,6 @@ export const NAV_LINKS = [
     ],
   };
   
-
   export const SOCIALS = {
     title: 'Social',
     links: [
