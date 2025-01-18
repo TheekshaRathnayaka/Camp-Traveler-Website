@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section id='hero' className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-40 xl:flex-row">
 
       <div className='hero-map' />
 
@@ -13,10 +13,10 @@ const Hero = () => {
                alt='camp'
                width={50}
                height={50}
-               className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]" 
+               className="absolute left-[-3px] top-[-40px] w-10 lg:w-[50px]" 
         />
 
-        <h1 className="bold-52 lg:bold-88">Horton Plain Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">Sri Lankan Camp Areas</h1>
 
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around Sri Lanka in just one app.
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
 
           <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
+            196k
             <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
           </p>
 
