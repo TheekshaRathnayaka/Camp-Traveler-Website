@@ -6,9 +6,9 @@ import Button from "./Button"
 const Navbar = () => {
   return (
 
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container fixed top-0 left-0 right-0 z-30 py-5 bg-white/70 backdrop-blur-md shadow-md">
 
-        <Link href="/">
+        <Link href="#hero">
             <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
         </Link>
 
