@@ -16,11 +16,11 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
 
         <div className="rounded-full bg-green-50 p-4">
           <Image
-            src="/folded-map.svg"
-            alt="map"
-            width={28}
-            height={28}
-          />
+              src="/folded-map.svg"
+              alt="map"
+              width={28}
+              height={28}
+            />
         </div>
 
         <div className="flex flex-col gap-1">
@@ -56,22 +56,22 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
 const Camp = () => {
   return (
 
-    <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+    <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-5 xl:mb-20">
 
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
+          title="Rain Forest Camp"
+          subtitle="Sinharaja, Sri Lanka"
           peopleJoined="50+ Joined"
         />
 
         <CampSite 
           backgroundImage="bg-bg-img-2"
           title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          subtitle="Ella, Sri Lanka"
+          peopleJoined="40+ Joined"
         />
       </div>
 
@@ -84,7 +84,7 @@ const Camp = () => {
           </h2>
 
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
+            Starting from the anxiety of the campers when visiting a new camping location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure.
           </p>
 
           <Image 
