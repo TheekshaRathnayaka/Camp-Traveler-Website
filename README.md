@@ -6,3 +6,4 @@ It consist of five sections as Home, How Hilink Work?, Features, Pricing, & Cont
 After home, it shows 'How HiLink work?' section.
 ![GT3](https://github.com/user-attachments/assets/4ca6f90a-580f-4a03-98c1-b1b410423fae)
 Next moves to 'Features' section.
+![GT4](https://github.com/user-attachments/assets/04685e73-0047-4bba-aa8d-8b8627a818df)
