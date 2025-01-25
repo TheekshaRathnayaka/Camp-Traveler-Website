@@ -9,3 +9,6 @@ After home, it shows 'How HiLink work?' section.
 
 Next moves to 'Features' section.
 ![GT4](https://github.com/user-attachments/assets/04685e73-0047-4bba-aa8d-8b8627a818df)
+
+Then goes to 'Pricing' section.
+![GT5](https://github.com/user-attachments/assets/fae1f2dd-0151-444a-b453-9da95190ac61)
