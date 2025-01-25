@@ -50,7 +50,7 @@ export const NAV_LINKS = [
   //PRICING
   export const pricingOptions = [
     {
-      title: "Plan A - Basic Adventurer",
+      title: "Plan A - Basics",
       price: "$50",
       features: [
         "Tent for 2 people",
@@ -64,18 +64,17 @@ export const NAV_LINKS = [
       price: "$100",
       features: [
         "Tent for 4 people",
-        "Full camping gear (lantern, sleeping bags, portable stove)",
+        "Full camping gear (lantern, portable stove)",
         "Guided nature walk",
         "Firewood and portable grill",
-        "First aid kit",
       ],
     },
     {
-      title: "Plan C - Premium Camper",
+      title: "Plan C - Premium",
       price: "$200",
       features: [
         "Luxury tent with air mattresses",
-        "All-inclusive camping gear (including cookware and utensils)",
+        "All-inclusive camping gear",
         "Private guided hiking tour",
         "Firewood, grill, and gourmet meal kit",
         "Solar charging station for devices",
