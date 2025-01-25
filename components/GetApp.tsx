@@ -6,11 +6,7 @@ const GetApp = () => {
 
       <div className="get-app">
 
-        <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
-
-        <p className='text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide'>
-            Packages
-        </p>
+        <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-10">
 
         <div className='flex flex-wrap'>
 
@@ -44,7 +40,7 @@ const GetApp = () => {
                         </ul>
 
                         <a href='#'
-                        className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-green-900 border border-green-900 rounded-lg transition duration-200">
+                        className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-10 tracking-tight text-xl hover:bg-green-900 border border-green-900 rounded-lg transition duration-200">
                           Subscribe
                         </a>
 
