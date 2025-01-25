@@ -1,3 +1,5 @@
+"use client";
+
 import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
@@ -42,17 +44,24 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             />
         </div>
-        
-        <Image 
-            src="menu.svg"
-            alt="menu"
-            width={32}
-            height={32}
-            className="inline-block cursor-pointer lg:hidden"
-        />
 
+        {isMenuOpen && (
+            <div className="absolute top-16 right-0 w-full bg-white shadow-md flex flex-col items-center py-5 lg:hidden">
+                {NAV_LINKS.map((link) => (
+                    <Link 
+                    key={link.key} 
+                    href={link.href} 
+                    className="block py-2 text-gray-700 text-lg"
+                    onClick={() => setIsMenuOpen(false)} // Close menu on link click
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+            </div>
+        )}
+        
     </nav>
   )
 }
 
-export default Navbar
+export default Navbar;
