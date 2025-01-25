@@ -2,8 +2,11 @@ import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
+import { useState } from "react"
 
 const Navbar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    
   return (
 
     <nav className="flexBetween max-container padding-container fixed top-0 left-0 right-0 z-30 py-5 bg-white/70 backdrop-blur-md shadow-md">
@@ -42,4 +45,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
