@@ -6,7 +6,7 @@ import { useState } from "react"
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    
+
   return (
 
     <nav className="flexBetween max-container padding-container fixed top-0 left-0 right-0 z-30 py-5 bg-white/70 backdrop-blur-md shadow-md">
@@ -32,6 +32,17 @@ const Navbar = () => {
             />
         </div>
 
+        <div className="lg:hidden">
+            <Image 
+            src="/menu.svg"
+            alt="menu"
+            width={32}
+            height={32}
+            className="cursor-pointer"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            />
+        </div>
+        
         <Image 
             src="menu.svg"
             alt="menu"
